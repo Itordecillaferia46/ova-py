@@ -1,5 +1,3 @@
-
-
 <template>
   <div>
     <br />
@@ -8,7 +6,15 @@
       <v-list-item>
         <v-list-item-content>
           <div justific="center" aling="left">
-            <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSf8GWaoGd4Z5cKz85uN_6kWzE8cl4xefqMrzKzR0eBXA6fAog/viewform?embedded=true" width="910" height="405" frameborder="0" marginheight="0" marginwidth="0">Cargando…</iframe>
+            <iframe
+              width="910"
+              height="405"
+              src="https://www.youtube.com/embed/lc5JJTQa4r8"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen
+            ></iframe>
+
             <br />
           </div>
         </v-list-item-content>
@@ -16,6 +22,7 @@
     </v-card>
 
     <div class="text-center">
+        <router-link :to="{ name: 'recursos3' }">
       <v-btn class="ma-2" outlined color="indigo">
         <img
           src="https://cdn-icons-png.flaticon.com/128/1250/1250278.png?ga=GA1.2.2069425694.1656982713"
@@ -25,6 +32,7 @@
           height="30px"
         />
       </v-btn>
+      </router-link>
       
        <router-link :to="{ name: 'actividad1' }">
       <v-btn class="ma-2" outlined color="indigo">

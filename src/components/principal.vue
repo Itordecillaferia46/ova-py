@@ -6,7 +6,7 @@
           <v-row>
             <v-col md="1">
               <center>
-                <router-link :to="{ name: 'inicio' }" class="noneline">
+                <router-link :to="{ name: 'home' }" class="noneline">
                   <v-btn icon
                     ><img
                       src="https://i.ibb.co/vv0PV03/Dise-o-sin-t-tulo-1-removebg-preview.png"
@@ -21,7 +21,7 @@
               </center>
             </v-col>
             <v-col>
-              <router-link :to="{ name: 'inicio' }" class="noneline">
+              <router-link :to="{ name: 'home' }" class="noneline">
                 <!-- <h2 style="color: #00ffff">
               OVA para el fortalecimiento del pensamiento computacional a través
               de PYTHON
@@ -30,6 +30,7 @@
                   OVA SCTTPY
                 </h2>
               </router-link>
+              
             </v-col>
           </v-row>
         </v-app-bar>
@@ -106,7 +107,7 @@
                             x-large
                             x-small
                             ><h3 style="color: rgb(247, 252, 252)">
-                              Recursos
+                             Aula virtual
                             </h3></v-btn-fab
                           >
                         </router-link>
@@ -115,7 +116,7 @@
                   </v-card>
                 </v-row>
 
-                <v-row>
+              <!--   <v-row>
                   <v-card color="indigo darken-2" flat>
                     <v-navigation-drawer
                       flat
@@ -156,7 +157,7 @@
                       </v-list-item>
                     </v-navigation-drawer>
                   </v-card>
-                </v-row>
+                </v-row> -->
 
                 <v-row>
                   <v-card color="indigo darken-2" flat>
@@ -226,7 +227,7 @@
                             x-large
                             x-small
                             ><h3 style="color: rgb(247, 252, 252)">
-                              Creditos
+                              Acerca de
                             </h3></v-btn-fab
                           >
                         </router-link>
