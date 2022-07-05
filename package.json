@@ -1,12 +1,17 @@
 {
   "name": "ova_py",
   "version": "0.1.0",
+  "description": "OVA for the strengthening of computational thought through Python",
   "private": true,
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint"
   },
+  "keywords": [],
+  "author": "Isaac Daniel Tordecilla Feria - Mara Sofía Torres Ortega -  Tatiana Jeronimo Montiel",
+  "license": "ISC",
+
   "dependencies": {
     "core-js": "^3.6.5",
     "vue": "^2.6.11",
