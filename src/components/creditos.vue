@@ -40,8 +40,8 @@
                 <h7> (tjeronimomontiel68@correo.unicordoba.edu.co)</h7>
               </v-card>
               <v-card class="mx-auto" max-width="704" outlined>
-                <h3>.</h3>
-                <h7> (.@correo.unicordoba.edu.co)</h7>
+                <h3>Yarlis Xilene García Chica</h3>
+                <h7> (ygarciachica07@correo.unicordoba.edu.co)</h7>
               </v-card>
 
               <v-card-subtitle class="pb-0">

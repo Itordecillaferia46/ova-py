@@ -1,9 +1,7 @@
 <template>
   <div>
     <br />
-    <br />
-    <br />
-    <br />
+
 
     <!--  <v-card class="mx-auto" max-width="884" outlined>
       <v-list-item>
@@ -23,6 +21,23 @@
         </v-list-item-content>
       </v-list-item>
     </v-card> -->
+                <v-toolbar color="#3CF3BE" flat>
+              <v-toolbar-title
+                ><center>
+                  <h3>Area Personal</h3>
+                </center></v-toolbar-title
+              >
+              <v-spacer></v-spacer>
+   
+              <!--  <div>
+        <v-switch
+          v-model="sticky"
+          label="Sticky Banner"
+          hide-details
+        ></v-switch> 
+      </div> -->
+            </v-toolbar>
+            <br>
     <v-row dense>
       <v-col>
         <v-card class="mx-auto" max-width="200">
@@ -31,8 +46,9 @@
             height="100px"
             src="https://i.ytimg.com/vi/ti315UlVtS4/maxresdefault.jpg"
           >
-            <v-card-title>Introducción</v-card-title>
+           
           </v-img>
+           <v-card-title>Introducción</v-card-title>
 
           <v-card-subtitle class="pb-0">
             Fundamentos del pensamiento computacional</v-card-subtitle
@@ -56,9 +72,9 @@
             height="100px"
             src="https://sitios.mineduc.cl/lenguajesdigitales/img/E-5.jpg"
           >
-            <v-card-title> Code.org</v-card-title>
+          
           </v-img>
-
+  <v-card-title> Code.org</v-card-title>
           <v-card-subtitle class="pb-0">
             Resolución de problemas con Code.Org</v-card-subtitle
           >
@@ -83,15 +99,15 @@
             height="100px"
             src="https://cdn.vuetifyjs.com/images/cards/docks.jpg"
           >
-            <v-card-title>Fundamentos de Python</v-card-title>
+         
           </v-img>
-
+   <v-card-title>Fundamentos de Python</v-card-title>
           <v-card-subtitle class="pb-0"> Unidad 1</v-card-subtitle>
 
           <v-card-text class="text--primary">
-            <div>Introducción</div>
+           
 
-            <br />
+       
           </v-card-text>
 
           <v-card-actions>
@@ -110,16 +126,16 @@
             height="100px"
             src="https://cdn.vuetifyjs.com/images/cards/docks.jpg"
           >
-            <v-card-title>Fundamentos de Python</v-card-title>
+         
           </v-img>
-
+   <v-card-title>Fundamentos de Python</v-card-title>
           <v-card-subtitle class="pb-0"> Unidad 2 </v-card-subtitle>
 
           <v-card-text class="text--primary">
             <div></div>
           </v-card-text>
-          <br />
-          <br />
+         
+          
              <v-card-actions>
             <div class="text-center">
               <router-link :to="{ name: 'contenido4' }" class="noneline">
@@ -135,34 +151,8 @@
     </v-row>
 
     <div class="text-center">
-       <router-link :to="{ name: 'home' }">
-      <v-btn class="ma-2" outlined color="indigo">
-        <img
-          src="https://cdn-icons-png.flaticon.com/512/1177/1177513.png?w=740"
-          alt=""
-          border="0"
-          width="30px"
-          height="30px"
-        />
-      </v-btn>
-      </router-link>
-      <v-btn class="ma-2" outlined large fab color="indigo">
-        <v-icon>mdi-school</v-icon>
-      </v-btn>
-
-
-      
-       <router-link :to="{ name: 'home' }">
-      <v-btn class="ma-2" outlined color="indigo">
-        <img
-          src="https://cdn-icons-png.flaticon.com/128/1177/1177481.png?ga=GA1.2.2069425694.1656982713"
-          alt=""
-          border="0"
-          width="30px"
-          height="30px"
-        />
-      </v-btn>
-      </router-link>
+     
+    
 
     </div>
   </div>

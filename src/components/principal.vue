@@ -6,7 +6,7 @@
           <v-row>
             <v-col md="1">
               <center>
-                <router-link :to="{ name: 'home' }" class="noneline">
+                <router-link :to="{ name: 'bienvenida' }" class="noneline">
                   <v-btn icon
                     ><img
                       src="https://i.ibb.co/vv0PV03/Dise-o-sin-t-tulo-1-removebg-preview.png"
@@ -21,7 +21,7 @@
               </center>
             </v-col>
             <v-col>
-              <router-link :to="{ name: 'home' }" class="noneline">
+              <router-link :to="{ name: 'bienvenida' }" class="noneline">
                 <!-- <h2 style="color: #00ffff">
               OVA para el fortalecimiento del pensamiento computacional a través
               de PYTHON
@@ -82,9 +82,9 @@
                       height="73"
                     >
                       <v-list-item dark fluid class="pa-0"
-                        ><img
+                        ><img onclick="location.href='https://classroom.google.com/u/1/c/NDg4NDIxNDA0Mzkx'"
                           img
-                          src="https://i.ibb.co/v16j4QV/nsasns.png"
+                          src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/25/Google_Classroom_icon.svg/640px-Google_Classroom_icon.svg.png"
                           alt="nsasns"
                           border="0"
                           rounded
@@ -92,11 +92,8 @@
                           height="65px"
                         />
 
-                        <router-link
-                          :to="{ name: 'contenido' }"
-                          class="noneline"
-                        >
-                          <v-btn-fab
+                       
+                          <v-btn-fab onclick="location.href='https://classroom.google.com/u/1/c/NDg4NDIxNDA0Mzkx'"
                             color="primary"
                             depressed
                             elevation="5"
@@ -110,7 +107,7 @@
                              Aula virtual
                             </h3></v-btn-fab
                           >
-                        </router-link>
+                      
                       </v-list-item>
                     </v-navigation-drawer>
                   </v-card>

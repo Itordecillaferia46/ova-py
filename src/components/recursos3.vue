@@ -26,14 +26,14 @@
       </v-btn>
       </router-link>
        <router-link :to="{ name: 'recursos3a' }">
-      <v-btn class="ma-2" outlined color="indigo">
+      <v-btn class="ma-2" outlined color="indigo"> Siguiente
         <img
           src="https://cdn-icons-png.flaticon.com/128/1177/1177481.png?ga=GA1.2.2069425694.1656982713"
           alt=""
           border="0"
           width="30px"
           height="30px"
-        />
+        /> 
       </v-btn>
       </router-link>
     </div>

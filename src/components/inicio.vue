@@ -50,7 +50,7 @@
               <h1 style="color: #00ffff"><font size=11 face="arial">OVA SCTTPY</font></h1>
             </v-card>
           <br>
-                <router-link :to="{ name: 'home' }">
+                <router-link :to="{ name: 'bienvenida' }">
                   <v-btn class="noneline" outlined color="primary" dark x-large
                     ><font  face="arial">Ingresar</font></v-btn
                   >

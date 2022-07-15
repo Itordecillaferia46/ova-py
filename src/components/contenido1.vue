@@ -22,6 +22,34 @@
     </v-card>
 
     <div class="text-center">
+         <router-link :to="{ name: 'home' }">
+      <v-btn class="ma-2" outlined color="indigo"> Volver</v-btn>
+      </router-link>
+
+    <!--   <v-btn class="ma-2" outlined color="indigo">
+        <img
+          src="https://cdn-icons-png.flaticon.com/128/1250/1250278.png?ga=GA1.2.2069425694.1656982713"
+          alt=""
+          border="0"
+          width="30px"
+          height="30px"
+        />
+      </v-btn>
+
+      <router-link :to="{ name: 'actividad1' }">
+        <v-btn class="ma-2" outlined color="indigo">
+          <img
+            src="https://cdn-icons-png.flaticon.com/512/947/947489.png?w=740&t=st=1656986351~exp=1656986951~hmac=9f80e6c3f07205581e65caec9c4ebb9ae6a05f6f28e1b004ce5d4ee425876b6e"
+            alt=""
+            border="0"
+            width="30px"
+            height="30px"
+          />
+        </v-btn> -->
+<!--         
+      </router-link> -->
+      
+ <router-link :to="{ name: 'recursos3' }">
       <v-btn class="ma-2" outlined color="indigo">
         <img
           src="https://cdn-icons-png.flaticon.com/128/1250/1250278.png?ga=GA1.2.2069425694.1656982713"
@@ -31,17 +59,12 @@
           height="30px"
         />
       </v-btn>
-      
-       <router-link :to="{ name: 'actividad1' }">
-      <v-btn class="ma-2" outlined color="indigo">
-        <img
-          src="https://cdn-icons-png.flaticon.com/512/947/947489.png?w=740&t=st=1656986351~exp=1656986951~hmac=9f80e6c3f07205581e65caec9c4ebb9ae6a05f6f28e1b004ce5d4ee425876b6e"
-          alt=""
-          border="0"
-          width="30px"
-          height="30px"
-        />
-      </v-btn>
+      </router-link>
+         <router-link :to="{ name: 'actividad1' }">
+        <v-btn class="ma-2" outlined color="indigo">
+       Actividad 
+        </v-btn>
+        
       </router-link>
     </div>
   </div>

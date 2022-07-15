@@ -3,6 +3,7 @@ import VueRouter from "vue-router";
 
 import inicio from "./components/inicio";
 import principal from "./components/principal";
+import bienvenida from "./components/bienvenida";
 import home from "./components/home";
 import contenido from "./components/contenido";
 import contenido1 from "./components/contenido1";
@@ -45,6 +46,11 @@ const routes = [
         path: "/home",
         name: "home",
         component: home,
+      },
+      {
+        path: "/bienvenida",
+        name: "bienvenida",
+        component: bienvenida,
       },
       {
         path: "/contenido",
