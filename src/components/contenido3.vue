@@ -6,14 +6,23 @@
       <v-list-item>
         <v-list-item-content>
           <div justific="center" aling="left">
-            <iframe
+           <!--  <iframe
               width="910"
               height="405"
               src="https://www.youtube.com/embed/lc5JJTQa4r8"
               frameborder="0"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
               allowfullscreen
-            ></iframe>
+            ></iframe> -->
+              <v-carousel>
+    <v-carousel-item
+      v-for="(item,i) in items"
+      :key="i"
+      :src="item.src"
+      reverse-transition="fade-transition"
+      transition="fade-transition"
+    ></v-carousel-item>
+  </v-carousel>
 
             <br />
           </div>
@@ -73,7 +82,20 @@ export default {
   name: "App",
 
   data: () => ({
-    //
+     items: [
+          {
+            src: 'https://www.youtube.com/watch?v=lc5JJTQa4r8',
+          },
+          {
+            src: 'https://cdn.vuetifyjs.com/images/carousel/sky.jpg',
+          },
+          {
+            src: 'https://cdn.vuetifyjs.com/images/carousel/bird.jpg',
+          },
+          {
+            src: 'https://cdn.vuetifyjs.com/images/carousel/planet.jpg',
+          },
+        ],
   }),
 };
 </script>

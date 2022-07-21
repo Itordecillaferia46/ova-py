@@ -1,17 +1,16 @@
 <template>
   <div>
     <br />
-    
-     <center>
-                <v-img
-                  max-height="480"
-                  max-width="1090"
-                  src="https://i.ibb.co/JFk3gQh/Presentaci-n1.png"
-                ></v-img>
-              </center>
-  
 
-    <br>
+    <center>
+      <v-img
+        max-height="480"
+        max-width="1090"
+        src="https://i.ibb.co/p3mQgKD/bienvenida.png"
+      ></v-img>
+    </center>
+
+    <br />
   </div>
 </template>
 

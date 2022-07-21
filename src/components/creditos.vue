@@ -49,7 +49,7 @@
               </v-card-subtitle>
               <v-card class="mx-auto" max-width="704" outlined>
                 <h3>Sandra Díaz Ramos</h3>
-                <h7> (limav.tic@gmail.com)</h7>
+                <h7> (sandradiazr@correo.unicordoba.edu.co)</h7>
               </v-card>
             </v-card-text>
 

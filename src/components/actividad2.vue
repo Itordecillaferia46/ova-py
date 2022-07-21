@@ -1,4 +1,4 @@
-<!-- color= "#00ffff" -->
+ <!-- color= "#00ffff" -->
 <template>
   <v-app>
     <div>
@@ -387,5 +387,8 @@ export default {
   border-radius: 2rem;
 }
 </style>
+ 
+
+
 
 
